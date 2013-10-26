@@ -19,7 +19,7 @@ development:
   encoding: unicode
   database: rails-angular-api_development
   pool: 5
-  username: rails-angular-api
+  username: larsbolvig
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: rails-angular-api_test
   pool: 5
-  username: rails-angular-api
+  username: larsbolvig  
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: rails-angular-api_production
   pool: 5
-  username: rails-angular-api
+  username: larsbolvig
   password:

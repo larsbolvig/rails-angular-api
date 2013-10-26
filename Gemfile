@@ -8,6 +8,8 @@ gem 'rails-api'
 # Use postgresql as the database for Active Record
 gem 'pg'
 
+# To allow cross origin access
+gem "rack-cors", "~> 0.2.8"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
