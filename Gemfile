@@ -11,6 +11,9 @@ gem 'pg'
 # To allow cross origin access
 gem "rack-cors", "~> 0.2.8"
 
+# To control json output
+gem "active_model_serializers"
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
