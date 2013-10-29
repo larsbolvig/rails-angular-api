@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131026144803) do
+ActiveRecord::Schema.define(version: 20131027060841) do
 
   create_table "events", force: true do |t|
     t.string   "name"
@@ -24,5 +24,19 @@ ActiveRecord::Schema.define(version: 20131026144803) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "sessions", force: true do |t|
+    t.string   "name"
+    t.string   "creatorName"
+    t.integer  "duration"
+    t.string   "level"
+    t.text     "abstract"
+    t.integer  "upVoteCount"
+    t.integer  "event_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "sessions", ["event_id"], name: "index_sessions_on_event_id", using: :btree
 
 end
