@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  creatorName: MyString
+  duration: 1
+  level: MyString
+  abstract: MyText
+  upVoteCount: 1
+  event_id: 
+
+two:
+  name: MyString
+  creatorName: MyString
+  duration: 1
+  level: MyString
+  abstract: MyText
+  upVoteCount: 1
+  event_id: 
